@@ -1,751 +1,602 @@
 {
   "links": [
     {
-      "relation_id": 21,
-      "person_id": 20
+      "value": 1,
+      "target": 21,
+      "source": 20
     },
     {
-      "relation_id": 22,
-      "person_id": 20
+      "value": 1,
+      "target": 22,
+      "source": 20
     },
     {
-      "relation_id": 20,
-      "person_id": 21
+      "value": 1,
+      "target": 20,
+      "source": 21
     },
     {
-      "relation_id": 22,
-      "person_id": 21
+      "value": 1,
+      "target": 22,
+      "source": 21
     },
     {
-      "relation_id": 20,
-      "person_id": 22
+      "value": 1,
+      "target": 20,
+      "source": 22
     },
     {
-      "relation_id": 21,
-      "person_id": 22
+      "value": 1,
+      "target": 21,
+      "source": 22
     },
     {
-      "relation_id": 25,
-      "person_id": 27
+      "value": 1,
+      "target": 25,
+      "source": 27
     },
     {
-      "relation_id": 29,
-      "person_id": 30
+      "value": 1,
+      "target": 29,
+      "source": 30
     },
     {
-      "relation_id": 34,
-      "person_id": 33
+      "value": 1,
+      "target": 34,
+      "source": 33
     },
     {
-      "relation_id": 33,
-      "person_id": 34
+      "value": 1,
+      "target": 33,
+      "source": 34
     },
     {
-      "relation_id": 39,
-      "person_id": 38
+      "value": 1,
+      "target": 39,
+      "source": 38
     },
     {
-      "relation_id": 38,
-      "person_id": 39
+      "value": 1,
+      "target": 38,
+      "source": 39
     },
     {
-      "relation_id": 42,
-      "person_id": 41
+      "value": 1,
+      "target": 42,
+      "source": 41
     },
     {
-      "relation_id": 43,
-      "person_id": 41
+      "value": 1,
+      "target": 43,
+      "source": 41
     },
     {
-      "relation_id": 41,
-      "person_id": 42
+      "value": 1,
+      "target": 41,
+      "source": 42
     },
     {
-      "relation_id": 41,
-      "person_id": 43
+      "value": 1,
+      "target": 41,
+      "source": 43
     },
     {
-      "relation_id": 42,
-      "person_id": 43
+      "value": 1,
+      "target": 42,
+      "source": 43
     },
     {
-      "relation_id": 38,
-      "person_id": 44
+      "value": 1,
+      "target": 38,
+      "source": 44
     },
     {
-      "relation_id": 46,
-      "person_id": 45
+      "value": 1,
+      "target": 46,
+      "source": 45
     },
     {
-      "relation_id": 45,
-      "person_id": 46
+      "value": 1,
+      "target": 45,
+      "source": 46
     },
     {
-      "relation_id": 48,
-      "person_id": 47
+      "value": 1,
+      "target": 48,
+      "source": 47
     },
     {
-      "relation_id": 49,
-      "person_id": 47
+      "value": 1,
+      "target": 49,
+      "source": 47
     },
     {
-      "relation_id": 50,
-      "person_id": 47
+      "value": 1,
+      "target": 50,
+      "source": 47
     },
     {
-      "relation_id": 47,
-      "person_id": 48
+      "value": 1,
+      "target": 47,
+      "source": 48
     },
     {
-      "relation_id": 49,
-      "person_id": 48
+      "value": 1,
+      "target": 49,
+      "source": 48
     },
     {
-      "relation_id": 50,
-      "person_id": 48
+      "value": 1,
+      "target": 50,
+      "source": 48
     },
     {
-      "relation_id": 47,
-      "person_id": 49
+      "value": 1,
+      "target": 47,
+      "source": 49
     },
     {
-      "relation_id": 48,
-      "person_id": 49
+      "value": 1,
+      "target": 48,
+      "source": 49
     },
     {
-      "relation_id": 50,
-      "person_id": 49
+      "value": 1,
+      "target": 50,
+      "source": 49
     },
     {
-      "relation_id": 47,
-      "person_id": 50
+      "value": 1,
+      "target": 47,
+      "source": 50
     },
     {
-      "relation_id": 48,
-      "person_id": 50
+      "value": 1,
+      "target": 48,
+      "source": 50
     },
     {
-      "relation_id": 49,
-      "person_id": 50
+      "value": 1,
+      "target": 49,
+      "source": 50
     },
     {
-      "relation_id": 56,
-      "person_id": 55
+      "value": 1,
+      "target": 56,
+      "source": 55
     },
     {
-      "relation_id": 55,
-      "person_id": 56
+      "value": 1,
+      "target": 55,
+      "source": 56
     },
     {
-      "relation_id": 61,
-      "person_id": 60
+      "value": 1,
+      "target": 61,
+      "source": 60
     },
     {
-      "relation_id": 60,
-      "person_id": 61
+      "value": 1,
+      "target": 60,
+      "source": 61
     },
     {
-      "relation_id": 65,
-      "person_id": 62
+      "value": 1,
+      "target": 65,
+      "source": 62
     },
     {
-      "relation_id": 62,
-      "person_id": 65
+      "value": 1,
+      "target": 62,
+      "source": 65
     },
     {
-      "relation_id": 66,
-      "person_id": 67
+      "value": 1,
+      "target": 66,
+      "source": 67
     },
     {
-      "relation_id": 70,
-      "person_id": 69
+      "value": 1,
+      "target": 70,
+      "source": 69
     },
     {
-      "relation_id": 71,
-      "person_id": 69
+      "value": 1,
+      "target": 71,
+      "source": 69
     },
     {
-      "relation_id": 69,
-      "person_id": 70
+      "value": 1,
+      "target": 69,
+      "source": 70
     },
     {
-      "relation_id": 71,
-      "person_id": 70
+      "value": 1,
+      "target": 71,
+      "source": 70
     },
     {
-      "relation_id": "69 70",
-      "person_id": 71
+      "value": 1,
+      "target": "69 70",
+      "source": 71
     },
     {
-      "relation_id": 73,
-      "person_id": 72
+      "value": 1,
+      "target": 73,
+      "source": 72
     },
     {
-      "relation_id": 72,
-      "person_id": 73
+      "value": 1,
+      "target": 72,
+      "source": 73
     },
     {
-      "relation_id": 69,
-      "person_id": 87
+      "value": 1,
+      "target": 69,
+      "source": 87
     },
     {
-      "relation_id": 70,
-      "person_id": 87
+      "value": 1,
+      "target": 70,
+      "source": 87
     }
   ],
   "nodes": [
     {
       "name": "Farfa Abbey",
-      "person_id": 1
+      "id": 1
     },
     {
-      "notes": "Abbot",
       "name": "Iohannes Abbot of Farfa",
-      "person_id": 2
+      "id": 2
     },
     {
       "name": "Madelberto son of Adalbert",
-      "person_id": 3
+      "id": 3
     },
     {
       "name": "Racones son of  Fraupertus of carsula (Raco)",
-      "person_id": 4
+      "id": 4
     },
     {
       "name": "Adriano son of Gualdiberto",
-      "person_id": 5
+      "id": 5
     },
     {
       "name": "Petronace son of Probus",
-      "person_id": 6
+      "id": 6
     },
     {
-      "associated_location": 28,
       "name": "Oldepiando son of Maiorus",
-      "person_id": 7
+      "id": 7
     },
     {
-      "notes": "clericus",
       "name": "Spoletanus clericus son of  (mansionis?) monachi",
-      "person_id": 8
+      "id": 8
     },
     {
-      "notes": "Abbot",
-      "desc": "Abbot",
       "name": "Giordanus, Abbot of Farfa",
-      "person_id": 9
+      "id": 9
     },
     {
-      "notes": "Gastaldus",
       "name": "Teudipertus Gastaldi de cciculis",
-      "person_id": 10
+      "id": 10
     },
     {
-      "notes": "Abbot of Farfa",
-      "desc": "Abbot of Farfa",
       "name": "Abbot Ingoaldus",
-      "person_id": 11
+      "id": 11
     },
     {
       "name": "Teuphanius son of gaitarij",
-      "person_id": 12
+      "id": 12
     },
     {
-      "notes": "Ursus Deacon son of Grasolphus sculdahis (comital official) of Ueterbi",
       "name": "Ursus son of Grasolphus",
-      "person_id": 13
+      "id": 13
     },
     {
       "name": "Gaidepertus  son of Godonis",
-      "person_id": 14
+      "id": 14
     },
     {
-      "relations": "Son Iohannes (also priest?) and  wife Liperge",
       "name": "Palmbus priest",
-      "person_id": 15
+      "id": 15
     },
     {
       "name": "Lazare Deacon",
-      "person_id": 16
+      "id": 16
     },
     {
       "name": "Scampertus son of Hildeprandi",
-      "person_id": 17
+      "id": 17
     },
     {
-      "female": "f",
       "name": "Heline (mother of Scampertus, wife of Hildeprandi?)",
-      "person_id": 18
+      "id": 18
     },
     {
-      "notes": "Abbot of Farfa",
-      "person_id": 19
+      "name": null,
+      "id": 19
     },
     {
-      "relation_id": [
-        21,
-        22
-      ],
-      "relations": "(donates land of late brother and sister to Abbey)",
-      "desc": "Sculdasio of Spoleto",
       "name": "Iohannes son of Teudatus",
-      "person_id": 20
+      "id": 20
     },
     {
-      "notes": "mentioned in doc. 239 Scahaldus",
-      "relation_id": [
-        20,
-        22
-      ],
-      "relations": "Brother Leo and sister Tudela",
       "name": "Leo brother of Iohannes and Tudela",
-      "person_id": 21
+      "id": 21
     },
     {
-      "relation_id": [
-        20,
-        21
-      ],
-      "female": "f",
       "name": "Tudela sister of Iohannes",
-      "person_id": 22
+      "id": 22
     },
     {
-      "relations": "Abbot of Farfa",
-      "desc": "Abbot",
       "name": "Abbot Peter",
-      "person_id": 23
+      "id": 23
     },
     {
-      "associated_location": 14,
       "name": "Gualderamus son of Alderadi of Furcone",
-      "person_id": 24
+      "id": 24
     },
     {
-      "desc": "deacon",
       "name": "Grimaldus diaconus filius Ursi",
-      "person_id": 25
+      "id": 25
     },
     {
       "name": "Teophanius filius Audaldi",
-      "person_id": 26
+      "id": 26
     },
     {
-      "associated_location": 14,
-      "relation_id": [
-        25
-      ],
-      "relations": "possible brother to 25?",
       "name": "Guidiperte, filium Ursi de furcone",
-      "person_id": 27
+      "id": 27
     },
     {
-      "associated_location": 8,
       "name": "Lupo filius Guinonis",
-      "person_id": 28
+      "id": 28
     },
     {
       "name": "Pertefusus filius Iohannis",
-      "person_id": 29
+      "id": 29
     },
     {
-      "relation_id": [
-        29
-      ],
-      "female": "f",
       "name": "Rose mother of Pertefusus (wife of Iohannis?)",
-      "person_id": 30
+      "id": 30
     },
     {
-      "associated_location": "8,18",
       "name": "Ildo filius Gildeperti",
-      "person_id": 31
+      "id": 31
     },
     {
-      "associated_location": 14,
-      "desc": "presbiter",
       "name": "Iohannes presbiter filius Rodepaldi de furcone",
-      "person_id": 32
+      "id": 32
     },
     {
       "name": "Gaiprandus filius Gaiponis",
-      "person_id": 33
+      "id": 33
     },
     {
-      "relations": "possible tenant of Iohannes 32",
       "name": "Aldo bassallus",
-      "person_id": 32
+      "id": 32
     },
     {
-      "relation_id": [
-        34
-      ],
-      "desc": "deacon",
       "name": "benedictum diaconum",
-      "person_id": 33
+      "id": 33
     },
     {
-      "relation_id": [
-        33
-      ],
       "name": "Teuderadum brother of Benedictus",
-      "person_id": 34
+      "id": 34
     },
     {
-      "desc": "Abbot of Farfa",
       "name": "Abbot Fulcualdo",
-      "person_id": 35
+      "id": 35
     },
     {
       "name": "Lupo Duke of Spoleto",
-      "person_id": 36
+      "id": 36
     },
     {
-      "relations": 4,
       "name": "Racipertus filius Frauperti",
-      "person_id": 37
+      "id": 37
     },
     {
-      "associated_location": 8,
-      "relation_id": [
-        39
-      ],
-      "relations": 44,
       "name": "Iohnannes Presbiter filius Petri habitator Masse Torane.",
-      "person_id": 38
+      "id": 38
     },
     {
-      "relation_id": [
-        38
-      ],
-      "female": "F",
-      "desc": "Sanctimonialis Femine (nun)",
       "name": "Bona (?)",
-      "person_id": 39
+      "id": 39
     },
     {
-      "desc": "Abbot",
       "name": "Anselmo, Abbot of Farfa",
-      "person_id": 40
+      "id": 40
     },
     {
-      "relation_id": [
-        42,
-        43
-      ],
-      "female": "f?",
       "name": "Formosa son of Albini  (wife of Stephanus)",
-      "person_id": 41
+      "id": 41
     },
     {
-      "relation_id": [
-        41
-      ],
-      "desc": "Stephanus",
       "name": "Stephanus",
-      "person_id": 42
+      "id": 42
     },
     {
-      "associated_location": "26,8",
-      "relation_id": [
-        41,
-        42
-      ],
-      "desc": "idest grimualdi clerici et albuini et uenerii et albini",
       "name": "Grimaldus clericius",
-      "person_id": 43
+      "id": 43
     },
     {
-      "associated_location": 8,
-      "relation_id": [
-        38
-      ],
-      "desc": "son of Iohannes of Massa Torano",
       "name": "Petri Presbiter",
-      "person_id": 44
+      "id": 44
     },
     {
-      "relation_id": [
-        46
-      ],
       "name": "Lupo filii Teuprandi habitatoris in Bagiano",
-      "person_id": 45
+      "id": 45
     },
     {
-      "relation_id": [
-        45
-      ],
       "name": "Hildeprandus filii Teuprandi habitatoris in Bagiano",
-      "person_id": 46
+      "id": 46
     },
     {
-      "associated_location": 2,
-      "relation_id": [
-        48,
-        49,
-        50
-      ],
       "name": "Lupardus filius Luponis",
-      "person_id": 47
+      "id": 47
     },
     {
-      "relation_id": [
-        47,
-        49,
-        50
-      ],
       "name": "Hilderico fillius Lupardus",
-      "person_id": 48
+      "id": 48
     },
     {
-      "relation_id": [
-        47,
-        48,
-        50
-      ],
       "name": "Acimnundo fillius Lupardus",
-      "person_id": 49
+      "id": 49
     },
     {
-      "relation_id": [
-        47,
-        48,
-        49
-      ],
       "name": "Teusperto fillius Lupardus",
-      "person_id": 50
+      "id": 50
     },
     {
-      "desc": "colonus",
       "name": "Petrum filium Marcellini",
-      "person_id": 51
+      "id": 51
     },
     {
-      "desc": "priest",
       "name": "godipertus presbiter filius Iohannis habitans in massa Ciculana",
-      "person_id": 52
+      "id": 52
     },
     {
       "name": "Hildericus filius bonouse",
-      "person_id": 53
+      "id": 53
     },
     {
-      "desc": "Abbot of Farfa",
       "name": "Hilderic Abbot of Farfa",
-      "person_id": 54
+      "id": 54
     },
     {
-      "associated_location": "8,27",
-      "relation_id": [
-        56
-      ],
-      "relations": 56,
       "name": "Teuprandus filii petri habitatores in massa torana",
-      "person_id": 55
+      "id": 55
     },
     {
-      "associated_location": "8,27",
-      "relation_id": [
-        55
-      ],
-      "relations": 55,
       "name": "Traso filii cuiusdam petri habitatores in massa torana",
-      "person_id": 56
+      "id": 56
     },
     {
-      "associated_location": "8,27",
       "name": "Scampertus, filius raciperti, habitator in massa torana",
-      "person_id": 57
+      "id": 57
     },
     {
-      "associated_location": 8,
       "name": "causarium filium marciliani",
-      "person_id": 58
+      "id": 58
     },
     {
       "name": "Sichardus Abbot of Farfa",
-      "person_id": 59
+      "id": 59
     },
     {
-      "relation_id": [
-        61
-      ],
       "name": "Probatus son of Ursi",
-      "person_id": 60
+      "id": 60
     },
     {
-      "relation_id": [
-        60
-      ],
       "name": "Picco sonf of Ursi",
-      "person_id": 61
+      "id": 61
     },
     {
-      "relation_id": [
-        65
-      ],
-      "desc": "vir devotus",
       "name": "Theodorum filius  cunctarii",
-      "person_id": 62
+      "id": 62
     },
     {
       "name": "Balano abbot of Farfa",
-      "person_id": 63
+      "id": 63
     },
     {
-      "desc": "presbyter",
       "name": "occliauia  presbyter",
-      "person_id": 64
+      "id": 64
     },
     {
-      "relation_id": [
-        62
-      ],
-      "desc": "presbyter",
       "name": "cunctarius  presbyter",
-      "person_id": 65
+      "id": 65
     },
     {
-      "desc": "Sculdahis",
       "name": "guinelapus sculdahis",
-      "person_id": 66
+      "id": 66
     },
     {
-      "relation_id": [
-        66
-      ],
-      "relations": "wife of guinelapus",
-      "female": "f",
       "name": "stephania",
-      "person_id": 67
+      "id": 67
     },
     {
-      "desc": "coloni",
       "name": "Felice",
-      "person_id": 68
+      "id": 68
     },
     {
-      "relation_id": [
-        70,
-        71
-      ],
-      "desc": "See Costambeys p. 241",
       "name": "Audolfus son of Hildericus.",
-      "person_id": 69
+      "id": 69
     },
     {
-      "relation_id": [
-        69,
-        71
-      ],
-      "desc": "became cleric at Farfa",
       "name": "Hildericus",
-      "person_id": 70
+      "id": 70
     },
     {
-      "relation_id": [
-        "69 70"
-      ],
-      "female": "f",
-      "desc": "Mother of Audolfus",
       "name": "guttae",
-      "person_id": 71
+      "id": 71
     },
     {
-      "relation_id": [
-        73
-      ],
       "name": "Lupo filius uitalis",
-      "person_id": 72
+      "id": 72
     },
     {
-      "relation_id": [
-        72
-      ],
-      "desc": "Notary",
       "name": "Benedictus filius uitalis",
-      "person_id": 73
+      "id": 73
     },
     {
-      "desc": "Presbiteri",
       "name": "Lamperti filuus uitalis",
-      "person_id": 74
+      "id": 74
     },
     {
       "name": "gualfredum filius nustiolae",
-      "person_id": 75
+      "id": 75
     },
     {
       "name": "Agipertum filius nustiolae",
-      "person_id": 76
+      "id": 76
     },
     {
       "name": "pertonem filius nustiolae",
-      "person_id": 77
+      "id": 77
     },
     {
-      "relations": 78,
       "name": "cuniprandus filius guiliprandi",
-      "person_id": 78
+      "id": 78
     },
     {
-      "relations": 79,
       "name": "Lupo fillius guiliprandi",
-      "person_id": 79
+      "id": 79
     },
     {
-      "notes": "see Costambeys p. 108",
-      "Neighbours": 84,
-      "relations": "82,83",
       "name": "Rodoricus/rodopertus filius halarici",
-      "person_id": 80
+      "id": 80
     },
     {
-      "desc": "Abbot of Farfa",
       "name": "Benedictus Abbot of Father",
-      "person_id": 81
+      "id": 81
     },
     {
-      "relations": 80.83,
-      "desc": "Son of Rodoricus",
       "name": "Fruaperto fillus Rodoricus",
-      "person_id": 82
+      "id": 82
     },
     {
-      "relations": 80,
-      "female": "f",
-      "desc": "wife of Rodoricus",
       "name": "Gualetrude",
-      "person_id": 83
+      "id": 83
     },
     {
-      "Neighbours": 80,
-      "desc": "neighbour of St. Stepanus mentioned by Rodoricus (80) above. http://www.charlemagneseurope.ac.uk/browse/agents/7812/",
       "name": "]Frauperto /Frauperto",
-      "person_id": 84
+      "id": 84
     },
     {
-      "Neighbours": "80,84",
-      "female": "f",
-      "desc": "Nun, Of the Hilderici Family. See Costambeys. p.237. Very interesting. Investigate further. http://www.charlemagneseurope.ac.uk/browse/agents/7817/  Same Heline as person 18??",
       "name": "Helinae ancillae dei",
-      "person_id": 85
+      "id": 85
     },
     {
-      "Neighbours": "85,84,80",
-      "desc": "Owner of woods mentioned in RF 20 http://www.charlemagneseurope.ac.uk/browse/agents/7815/",
       "name": "massiolus filius caluuli",
-      "person_id": 86
+      "id": 86
     },
     {
-      "relation_id": [
-        69,
-        70
-      ],
-      "female": "f",
-      "desc": "Ancillia Dei who receives land and church of Sancti Laurentii",
       "name": "Guisperga",
-      "person_id": 87
+      "id": 87
     }
   ]
 }

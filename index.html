@@ -14,15 +14,29 @@
   <meta name="author" content="Jim Vallandingham">
 
   <meta name="viewport" content="width=device-width,initial-scale=1">
+    <style>
+      .node {
+        stroke: #000;
+        stroke-width: 1.5px;
+      }
+
+      .link {
+        stroke: #999;
+        stroke-width: 1.5px;
+      }
+</style>
 </head>
 
 <body>
 
 <!-- [.[] | {person_id: .person_id, relation_id: .relation_id[] }]
 ± more ./data/json/agent-table2.json | jq '[.[] | {person_id: .person_id, relation_id: .relation_id[] }]' > test.json
+± more ./data/json/agent-table2.json | jq '{ nodes: . , links: [.[] | {source: .person_id, target: .relation_id[] }]}' >  test.json
+± more ./data/json/agent-table2.json | jq '{ nodes: [.[] | {id: .person_id, name: .name }], links: [.[] | {person_id: .person_id, relation_id: .relation_id[] }]}' >  test.json
 
-± more ./data/json/agent-table2.json | jq '{ nodes: . , links: [.[] | {person_id: .person_id, relation_id: .relation_id[] }]}' >  test.json
+± more ./data/json/agent-table2.json | jq '{ nodes: [.[] | {id: .person_id | tostring , name: .name }], links: [.[] | {source: .person_id | tostring, target: .relation_id[] | tostring,  }]}' >  test.json
 
+http://bl.ocks.org/mbostock/533daf20348023dfdd76
 -->
 </body>
-<script type="script/javascript" src="build/index.js"></script>
+<script type="text/javascript" src="build/index.js"></script>
