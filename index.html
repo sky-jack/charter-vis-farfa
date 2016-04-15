@@ -18,6 +18,11 @@
 
 <body>
 
-<!-- [.[] | {person_id: .person_id, relation_id: .relation_id[] }] -->
+<!-- [.[] | {person_id: .person_id, relation_id: .relation_id[] }]
+± more ./data/json/agent-table2.json | jq '[.[] | {person_id: .person_id, relation_id: .relation_id[] }]' > test.json
+
+± more ./data/json/agent-table2.json | jq '{ nodes: . , links: [.[] | {person_id: .person_id, relation_id: .relation_id[] }]}' >  test.json
+
+-->
 </body>
 <script type="script/javascript" src="public/index.js"></script>
