@@ -1,0 +1,21 @@
+{
+  "name": "network-vis-test",
+  "version": "0.0.1",
+  "license": "UNLICENSED",
+  "description": "tbc",
+  "keywords": [
+    "d3"
+  ],
+  "author": "Jack Watkins",
+  "engines": {
+    "node": ">=0.10 <=5"
+  },
+  "private": true,
+  "devDependencies": {},
+  "dependencies": {
+    "browserify": "^13.0.0",
+    "csvtojson": "^0.5.3",
+    "d3": "^3.5.16",
+    "jq-cli-wrapper": "^0.3.0"
+  }
+}
