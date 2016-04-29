@@ -1,0 +1,64 @@
+{
+  "charters": [
+    {
+        "id": 1,
+        "name": "RF-12",
+        "year": "805",
+        "granter" : "12",
+        "benefactor": "1,2",
+        "locations_mentions" : "2",
+        "charter_redacted" : "3",
+        "granter_home_location": "24"
+    }, {
+        "id": 2,
+        "name": "RF-13",
+        "year": "805",
+        "granter" : "1",
+        "benefactor": "1,2",
+        "locations_mentions": "2",
+        "charter_redacted" : "3",
+        "granter_home_location": "24"
+    },
+    {
+       "id": 4,
+       "name": "RF-13",
+       "year": "805",
+       "granter" : "1",
+       "benefactor": "1,2",
+       "locations_mentions": "2",
+       "charter_redacted" : "3",
+       "granter_home_location": "24"
+   }
+  ],
+  "places": [
+    {
+      "id": 1,
+      "name": "Quintiano",
+      "related_location": 4
+    },
+    {
+      "id": 2,
+      "name": "Quintiano",
+      "related_location": 4
+    },
+    {
+      "id": 3,
+      "name": "Quintiano",
+      "related_location": 4
+    }
+  ],
+  "agents": [
+    {
+      "id": 1,
+      "name" : "bob",
+      "relation" :"1,2,3",
+      "witness_to_charter" : 1
+    },
+    {
+      "id": 2,
+      "name" : "Adelpert",
+      "relation": "1,2,3",
+      "witness_to_charter" : 1
+    }
+  ]
+}
