@@ -17,7 +17,7 @@
 {"person_id":16,"name":"Lazare Deacon"},
 {"person_id":17,"name":"Scampertus son of Hildeprandi"},
 {"person_id":18,"name":"Heline (mother of Scampertus, wife of Hildeprandi?)"},
-{"person_id":19},
+{"person_id":19, "name": "unknonw"},
 {"person_id":20,"name":"Iohannes son of Teudatus","relation_id":[21,22]},
 {"person_id":21,"name":"Leo brother of Iohannes and Tudela","relation_id":[20,22]},
 {"person_id":22,"name":"Tudela sister of Iohannes","relation_id":[20,21]},
