@@ -9,38 +9,73 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title>Song Networks: Interative Network Tutorial</title>
+  <title>9th Century Tuscia</title>
   <meta name="description" content="Demo for How to Build an Interactive Network Visualization.">
   <meta name="author" content="Jim Vallandingham">
 
   <meta name="viewport" content="width=device-width,initial-scale=1">
-    <style>
-      .node {
-        stroke: #000;
-        stroke-width: 1.5px;
-      }
+  <script src='https://api.mapbox.com/mapbox-gl-js/v0.26.0/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v0.26.0/mapbox-gl.css' rel='stylesheet' />
 
-      .link {
-        stroke: #999;
-        stroke-width: 1.5px;
-      }
-      div.tooltip {
-        position: absolute;
-        text-align: center;
-        width: 70px;
-        height: auto;
-        padding: 2px;
-        font: 12px sans-serif;
-        background: lightsteelblue;
-        border: 0px;
-        border-radius: 8px;
-        pointer-events: none;
-      }
+
+    <style>
+
+    body { margin:0;position:fixed;top:0;right:0;bottom:0;left:0; }
+
+    #map {
+      position:absolute;
+      width: 100%;
+      height: 100%;
+    }
+
+    svg {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+
+    circle.mapbox {
+      stroke: #111;
+      fill-opacity: 0.1;
+    }
+    circle.vp {
+      fill-opacity: 0.1;
+      stroke: #111;
+    }
+    circle.d3 {
+      fill-opacity: 0.8;
+      stroke-width: 2;
+      stroke: orange;
+    }
+
+    .node {
+      stroke: #000;
+      stroke-width: 1.5px;
+    }
+
+    .link {
+      stroke: #999;
+      stroke-width: 1.5px;
+    }
+
+    div.tooltip {
+      position: absolute;
+      text-align: center;
+      width: 70px;
+      height: auto;
+      padding: 2px;
+      font: 12px sans-serif;
+      background: lightsteelblue;
+      border: 0px;
+      border-radius: 8px;
+      pointer-events: none;
+    }
 </style>
 </head>
 
 <body>
-
+  <div id="map"></div>
+  <svg id="overlay2"></svg>
 <!-- [.[] | {person_id: .person_id, relation_id: .relation_id[] }]
 ± more ./data/json/agent-table2.json | jq '[.[] | {person_id: .person_id, relation_id: .relation_id[] }]' > test.json
 ± more ./data/json/agent-table2.json | jq '{ nodes: . , links: [.[] | {source: .person_id, target: .relation_id[] }]}' >  test.json
@@ -52,4 +87,4 @@ http://bl.ocks.org/mbostock/533daf20348023dfdd76
 -->
 </body>
 
-<script type="text/javascript" src="build/index.js"></script>
+<script type="text/javascript" src="build/mapbox.js"></script>

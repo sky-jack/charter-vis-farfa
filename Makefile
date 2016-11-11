@@ -10,3 +10,4 @@ deps:
 browserify:
 	@echo "running browserify"
 	@browserify ./js/index.js >  ./build/index.js
+	@browserify ./js/mapbox.js > ./build/mapbox.js

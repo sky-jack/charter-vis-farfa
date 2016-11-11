@@ -6,4 +6,7 @@
 # //more ./data/json/agent-table2.json | jq '{ nodes: [.[] | {id: .person_id | tostring , name: .name }], links: [.[] | {source: .person_id | tostring, target: .relation_id[] | tostring,  }]}' >  test.json
 #{ nodes: [.[] | {id: .person_id | tostring , name: .name }], links: [.[] | {source: .person_id | tostring, target: .relation_id[] | tostring,  }]}
 
-{ location_nodes: [ .places  ], location_people_link: [ .charters[] | {source: .locations_mentions , target: .granter}]}
+#{ location_nodes: [ .places  ], location_people_link: [ .charters[] | {source: .locations_mentions , target: .granter}]}
+
+
+{ agents [.agents ], charters [.charters], location [.location.coordinates | split(location.coordinates) ] } >  test3.json
