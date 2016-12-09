@@ -197,70 +197,169 @@
 ],
 "locations" :
   [
-  {"id":1,"location_name":"reati"},
-  {"id":2,"location_name":"Carsulae, Carsule","modern_name":"n/a","confirmed":"no","coordinates":"42.638390, 12.563283"},
-  {"id":3,"location_name":"Talianus","modern_name":"deserted","confirmed":"yes","coordinates":"42.139940, 13.033908"},
-  {"id":4,"location_name":"Paganus","modern_name":"paganico","confirmed":"yes","coordinates":"42.189933, 12.995928"},
-  {"id":5,"location_name":"Toraniano, Toranianum","modern_name":"?","confirmed":"no"},
-  {"id":6,"location_name":"pitte","modern_name":"?","confirmed":"?"},
-  {"id":7,"location_name":"Orclana","confirmed":"yes","coordinates":"42.338889,11.945833"},
-  {"id":8,"location_name":"Massa Turano","confirmed":"yes"},
-  {"id":9,"location_name":"Ofigiano, Offiano","modern_name":"deserted","confirmed":"yes","coordinates":"42.147071, 13.004728"},
-  {"id":10,"location_name":"Quinto","modern_name":"Borgo Quinzio (?)","confirmed":"no","coordinates":"42.163752, 12.717561"},
-  {"id":11,"location_name":"Maliano","modern_name":"Magliano Sabine (?)","confirmed":"no","coordinates":"42.364025, 12.479757"},
-  {"id":12,"location_name":"Casule","modern_name":"in Massa Notona","confirmed":"no"},
-  {"id":13,"location_name":"Asera","modern_name":"unrecognised","confirmed":"no"},
-  {"id":14,"location_name":"Furcone, Furconino, Furcona","modern_name":"near L�aquila","confirmed":"no","coordinates":"42.308101, 13.444762"},
-  {"id":15,"location_name":"Colomella (in Furcone)"},
-  {"id":16,"location_name":"Massa Notona, Massa Nautona"},
-  {"id":17,"location_name":"Pantana"},
-  {"id":18,"location_name":"Villa Tampilianus"},
-  {"id":19,"location_name":"cellam in massa interocina (?) called Vallantis (In Rieti??)"},
-  {"id":20,"location_name":"Plagia, Plage"},
-  {"id":21,"location_name":"Pingui"},
-  {"id":22,"location_name":"Curtem of Ballantis in Massa Interocina"},
-  {"id":23,"location_name":"bitianus Bezano","modern_name":"?","confirmed":"See Moreland Phd vol.2 Note 12. for possible location.   Near Farfa river","coordinates":"42.235678, 12.688153"},
-  {"id":24,"location_name":"Rescaniano, Rescanianus","confirmed":"no"},
-  {"id":25,"location_name":"pelestrina"},
-  {"id":26,"location_name":"coniolicampi","modern_name":"?"},
-  {"id":27,"location_name":"Puzalia","modern_name":"Near Rieti?"},
-  {"id":28,"location_name":"Octavo"},
-  {"id":29,"location_name":"Ilice, Hilice"},
-  {"id":30,"location_name":"Bagiano"},
-  {"id":31,"location_name":"Corneto, corneta.","modern_name":"Abandoned settlement detailed by Hubert","confirmed":"yes Staffa pg.  264 2Hubert p.136","coordinates":"42.205274, 12.974129"},
-  {"id":32,"location_name":"Massa Ciculana","modern_name":"cicolano ?","coordinates":"42.327980, 12.977846"},
-  {"id":33,"location_name":"Petronianus in Massa Ciculani"},
-  {"id":33,"location_name":"arianum, marianum"},
-  {"id":34,"location_name":"Mutella","modern_name":"HAS POTENTIAL INVESTIGATE THIS PLACE"},
-  {"id":35,"location_name":"cicilimum , cicillum","confirmed":"related to Massa Circulana� investigate in relation to casalae san donato"},
-  {"id":36,"location_name":"Turris","modern_name":"INVESTIGATE FURTHER FIND REF."},
-  {"id":37,"location_name":"Fornicatam, fornicata"},
-  {"id":38,"location_name":"Germanicianum","modern_name":"many refs investigate further"},
-  {"id":39,"location_name":"Classicella","modern_name":"many refs investigate further"},
-  {"id":40,"location_name":"Massingianus"},
-  {"id":41,"location_name":"Tampiliano"},
-  {"id":42,"location_name":"Uiterbii, uiterbum","modern_name":"Viterbo","confirmed":"yes","coordinates":"42.417230, 12.105916"},
-  {"id":43,"location_name":"praetoriolo"},
-  {"id":44,"location_name":"Hilianu, illianus"},
-  {"id":45,"location_name":"Antiano"},
-  {"id":46,"location_name":"figlinulae"},
-  {"id":47,"location_name":"corneliano"},
-  {"id":48,"location_name":"tarlano"},
-  {"id":49,"location_name":"Longitiae"},
-  {"id":50,"location_name":"antiquo","modern_name":"???????","confirmed":"no"},
-  {"id":51,"location_name":"antonianus"},
-  {"id":52,"location_name":"Camertulum","modern_name":"Camerino","coordinates":"43.135218, 13.068435"},
-  {"id":53,"location_name":"Tancies/Tancii","modern_name":"Monte Tancia","confirmed":"Suggested by Costambeys p. 79 See also Toubert pg. 437 lots of info!!!!","coordinates":"42.321201, 12.732209"},
-  {"id":54,"location_name":"caerasum","modern_name":"?","confirmed":"No, woods near Tancies"},
-  {"id":55,"location_name":"Asera / Aser","confirmed":"No, Above or near the Via Saleria"},
-  {"id":56,"location_name":"Campus Gartiani"},
-  {"id":57,"location_name":"Decano","confirmed":"No,","coordinates":"42.527523, 12.264758"},
-  {"id":58,"location_name":"Quintiano"},
-  {"id":59,"location_name":"varianum"},
-  {"id":60,"location_name":"Spoleto"},
-  {"id":61,"location_name":"Interocrino","modern_name":"Antrodoco\rInterocrino means between the mountains. I believe this is on the Via Saleria","confirmed":"yes","coordinates":"42.415286, 13.075594"},
-  {"id":62,"location_name":"centucellensis","modern_name":"Civitavecchia","confirmed":"yes","coordinates":"42.104930, 11.798233"},
-  {"id":63,"location_name":"Tuscanensis","modern_name":"https://www.wikiwand.com/la/Tuscana","confirmed":"yes","coordinates":"42.418539, 11.870313"},
-  {"id":64,"location_name":"Fortuna","modern_name":"Near Viterbo�"}
+    {"id":1,"location_name":"reati","Modern name":"","Confirmed":"","Toponym":"","coordinates":"42.404454, 12.857859","map link":"","Future Castellum":"","Charters that mention place":"","Leases that mention place":"","related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":2,"location_name":"Carsulae, Carsule","Modern name":"n/a","Confirmed":"no","Toponym":"","coordinates":"42.638390, 12.563283","map link":"https://www.google.co.uk/maps/place/67061+Carsoli+AQ,+Italy/@42.0801976,13.052904,2573m/data=!3m1!1e3!4m2!3m1!1s0x132f95e4111809c7:0xf895634534e831e9!6m1!1e1","Future Castellum":"Nearby Castell Saint Angelo.","Charters that mention place":"","Leases that mention place":"","related locations":"","Site verified":"no","Source":"","level of detail":1,"notes":"This is likely the roman town of Carsoli in Torrano valley (42.101261, 13.088137)? is this the roman town or later fortified site?"}
+    ,
+    {"id":3,"location_name":"Talianus","Modern name":"deserted","Confirmed":"yes","Toponym":"","coordinates":"42.139940, 13.033908","map link":"https://www.google.co.uk/maps/@42.1396514,13.0234777,3906m/data=!3m1!1e3!4m2!9m1!1b1","Future Castellum":"Yes","Charters that mention place":3,"Leases that mention place":"","related locations":"","Site verified":"yes","Source":"see p.43 Hubert ‘L’incastellamento’ survey and historiography of this site. Toubert also verifies site on p.430 Latium Medieval","level of detail":3,"notes":"Talianus (massa Torana)"}
+    ,
+    {"id":4,"location_name":"Paganus","Modern name":"paganico","Confirmed":"yes","Toponym":"","coordinates":"42.189933, 12.995928","map link":"https://www.google.co.uk/maps/place/42%C2%B011'23.8%22N+12%C2%B059'45.3%22E/@42.189933,12.9937393,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x0","Future Castellum":"Offiano nearby investigate further.","Charters that mention place":3,"Leases that mention place":"","related locations":"","Site verified":"yes","Source":"Hubert p.66","level of detail":"","notes":""}
+    ,
+    {"id":5,"location_name":"Toraniano, Toranianum","Modern name":"?","Confirmed":"no","Toponym":"","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":5,"Leases that mention place":"","related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":6,"location_name":"pitte","Modern name":"?","Confirmed":"?","Toponym":"","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":16,"Leases that mention place":"","related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":7,"location_name":"Orclana, Orcle, Orclanus","Modern name":"probably Norchia,","Confirmed":"yes","Toponym":"","coordinates":"42.338889,11.945833","map link":"https://www.google.com/maps/place/42%C2%B020'20.0%22N+11%C2%B056'45.0%22E/@42.2598235,11.9390572,1171a,20y,82.51t/data=!3m1!1e3!4m3!3m2!1s0x0:0x0!4b1?hl=en","Future Castellum":"","Charters that mention place":"19, (no. 284)","Leases that mention place":"","related locations":"","Site verified":"","Source":"https://en.wikipedia.org/wiki/Norchia https://books.google.co.uk/books?id=6Gny1hm3wZoC&pg=PA63&lpg=PA63&dq=Norchia+(ancient+Orcla)+near+Viterbo&source=bl&ots=SQHgaEVUo_&sig=bTEEy_vOBzG-KcaRstIieCJDmdg&hl=en&sa=X&ved=0ahUKEwjiibefwJHLAhVMOhQKHQ7qAjAQ6AEIMjAE#v=onepage&q=Norchia%20(ancient%20Orcla)%20near%20Viterbo&f=false","level of detail":"","notes":"Interesting remains visible. Research extant archaeology and possibly visit."}
+    ,
+    {"id":8,"location_name":"Massa Turano","Modern name":"","Confirmed":"yes","Toponym":"fundus (?)","coordinates":"","map link":"","Future Castellum":"name for settlements in mid Turano Valley","Charters that mention place":8,"Leases that mention place":5,"related locations":"","Site verified":"yes","Source":"Hubert p.121-125","level of detail":"","notes":""}
+    ,
+    {"id":9,"location_name":"Ofigiano, Offiano","Modern name":"deserted","Confirmed":"yes","Toponym":"","coordinates":"42.147071, 13.004728","map link":"https://www.google.co.uk/maps/place/42%C2%B008'49.5%22N+13%C2%B000'17.0%22E/@42.147072,13.0041808,178m/data=!3m2!1e3!4b1!4m2!3m1!1s0x0:0x0!5m1!1e4","Future Castellum":"approx co-ordinates based upon maps in Hubert.","Charters that mention place":"","Leases that mention place":5,"related locations":"","Site verified":"yes","Source":"Hubert many refs. p.535","level of detail":"","notes":"Try to visit site. San Donato appeared to sit in the valley below settlement"}
+    ,
+    {"id":10,"location_name":"Quinto","Modern name":"Borgo Quinzio (?)","Confirmed":"no","Toponym":"","coordinates":"42.163752, 12.717561","map link":"","Future Castellum":"tbx","Charters that mention place":"","Leases that mention place":4,"related locations":"","Site verified":"no","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":11,"location_name":"Maliano","Modern name":"Magliano Sabine (?)","Confirmed":"no","Toponym":"fundus","coordinates":"42.364025, 12.479757","map link":"","Future Castellum":"","Charters that mention place":29,"Leases that mention place":7,"related locations":"","Site verified":"no","Source":"https://it.wikipedia.org/wiki/Magliano_Sabina","level of detail":"descr","notes":""}
+    ,
+    {"id":12,"location_name":"Casule","Modern name":"in Massa Notona","Confirmed":"no","Toponym":"","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":"","Leases that mention place":"","related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":13,"location_name":"Asera","Modern name":"unrecognised","Confirmed":"no","Toponym":"","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":22,"Leases that mention place":"","related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":14,"location_name":"Furcone, Furconino, Furcona","Modern name":"near L’aquila","Confirmed":"no","Toponym":"","coordinates":"42.308101, 13.444762","map link":"","Future Castellum":"","Charters that mention place":"","Leases that mention place":"","related locations":"","Site verified":"ref","Source":"https://books.google.co.uk/books?id=kfL7cfpURHsC&pg=PA834&lpg=PA834&dq=furcone+diocese&source=bl&ots=ck54Mu9-lt&sig=ObFNeOTisBZTM0mexWbvv3nhKEA&hl=en&sa=X&ved=0ahUKEwjgrr6GrcPLAhVKaRQKHUxNDcQQ6AEIHDAA#v=onepage&q=furcone%20diocese&f=false","level of detail":"","notes":"https://books.google.co.uk/books?id=jx0u3IiC9r8C&pg=PA172&dq=Furcona&hl=en&sa=X&ved=0ahUKEwjP9qqH-KfLAhWLtBQKHaozA5gQ6AEIXDAJ#v=onepage&q=Furcona&f=false"}
+    ,
+    {"id":15,"location_name":"Colomella (in Furcone)","Modern name":"","Confirmed":"","Toponym":"","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":"","Leases that mention place":"","related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":16,"location_name":"Massa Notona, Massa Nautona","Modern name":"","Confirmed":"","Toponym":"","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":"","Leases that mention place":8,"related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":17,"location_name":"Pantana","Modern name":"Pantanione / castrum Pantani RF 20 talks of gestald of this territory.","Confirmed":"No","Toponym":"Very vague location","coordinates":"42.202317, 11.835323","map link":"","Future Castellum":"","Charters that mention place":"","Leases that mention place":8,"related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":18,"location_name":"Villa Tampilianus","Modern name":"","Confirmed":"","Toponym":"villa","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":"RF 292","Leases that mention place":16,"related locations":8,"Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":19,"location_name":"cellam in massa interocina (?) called Vallantis (In Rieti??)","Modern name":"","Confirmed":"","Toponym":"","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":"RF 74","Leases that mention place":17,"related locations":22,"Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":20,"location_name":"Plagia, Plage","Modern name":"","Confirmed":"","Toponym":"","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":"","Leases that mention place":18,"related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":21,"location_name":"Pingui","Modern name":"","Confirmed":"","Toponym":"","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":"","Leases that mention place":18,"related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":22,"location_name":"Curtem of Ballantis in Massa Interocina","Modern name":"","Confirmed":"","Toponym":"","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":"mentioned in privileges of Louis the pious: RF 217","Leases that mention place":19,"related locations":19,"Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":23,"location_name":"bitianus Bezano","Modern name":"?","Confirmed":"See Moreland Phd vol.2 Note 12. for possible location.   Near Farfa river","Toponym":"","coordinates":"42.235678, 12.688153","map link":"","Future Castellum":"","Charters that mention place":"","Leases that mention place":"","related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":24,"location_name":"Rescaniano, Rescanianus","Modern name":"","Confirmed":"no","Toponym":"fundus","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":"","Leases that mention place":20,"related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":25,"location_name":"pelestrina","Modern name":"","Confirmed":"","Toponym":"","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":"","Leases that mention place":21,"related locations":2,"Site verified":"","Source":"","level of detail":"mention ind RF 311 as in Carsule. donated by Raco so n of Frauperti.","notes":""}
+    ,
+    {"id":26,"location_name":"coniolicampi","Modern name":"?","Confirmed":"","Toponym":"Casalae","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":25,"Leases that mention place":22,"related locations":8,"Site verified":"","Source":"","level of detail":"casale in massa Torano","notes":""}
+    ,
+    {"id":27,"location_name":"Puzalia","Modern name":"Near Rieti?","Confirmed":"","Toponym":"","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":"3,27","Leases that mention place":22,"related locations":8,"Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":28,"location_name":"Octavo","Modern name":"","Confirmed":"","Toponym":"","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":5,"Leases that mention place":23,"related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":29,"location_name":"Ilice, Hilice","Modern name":"","Confirmed":"","Toponym":"","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":26,"Leases that mention place":23,"related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":30,"location_name":"Bagiano","Modern name":"","Confirmed":"","Toponym":"","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":"","Leases that mention place":24,"related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":31,"location_name":"Corneto, corneta.","Modern name":"Abandoned settlement detailed by Hubert","Confirmed":"yes Staffa pg.  264 2Hubert p.136","Toponym":"","coordinates":"42.205274, 12.974129","map link":"","Future Castellum":"","Charters that mention place":"","Leases that mention place":27,"related locations":"8, 18,42","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":32,"location_name":"Massa Ciculana","Modern name":"cicolano ?","Confirmed":"","Toponym":"","coordinates":"42.327980, 12.977846","map link":"","Future Castellum":"","Charters that mention place":"RF 326","Leases that mention place":"","related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":33,"location_name":"Petronianus in Massa Ciculani","Modern name":"","Confirmed":"","Toponym":"","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":"RF 326","Leases that mention place":27,"related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":33,"location_name":"arianum, marianum","Modern name":"","Confirmed":"","Toponym":"fundum","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":29,"Leases that mention place":"","related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":34,"location_name":"Mutella","Modern name":"HAS POTENTIAL INVESTIGATE THIS PLACE","Confirmed":"","Toponym":"fundum","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":29,"Leases that mention place":"","related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":35,"location_name":"cicilimum, cicillum","Modern name":"","Confirmed":"related to Massa Circulana… investigate in relation to casalae san donato","Toponym":"fundum","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":29,"Leases that mention place":"","related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":36,"location_name":"Turris","Modern name":"INVESTIGATE FURTHER FIND REF.","Confirmed":"","Toponym":"fundum","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":29,"Leases that mention place":"","related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":37,"location_name":"Fornicatam, fornicata","Modern name":"","Confirmed":"","Toponym":"fundum","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":29,"Leases that mention place":"","related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":38,"location_name":"Germanicianum","Modern name":"many refs investigate further","Confirmed":"","Toponym":"","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":"","Leases that mention place":"","related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":39,"location_name":"Classicella","Modern name":"many refs investigate further","Confirmed":"","Toponym":"","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":"","Leases that mention place":"","related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":40,"location_name":"Massingianus","Modern name":"","Confirmed":"","Toponym":"","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":"","Leases that mention place":27,"related locations":8,"Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":41,"location_name":"Tampiliano","Modern name":"","Confirmed":"","Toponym":"","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":"","Leases that mention place":27,"related locations":8,"Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":42,"location_name":"Uiterbii, uiterbum","Modern name":"Viterbo","Confirmed":"yes","Toponym":"","coordinates":"42.417230, 12.105916","map link":"","Future Castellum":"","Charters that mention place":29,"Leases that mention place":"","related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":43,"location_name":"praetoriolo","Modern name":"","Confirmed":"","Toponym":"","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":"31,29","Leases that mention place":"","related locations":52,"Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":44,"location_name":"Hilianu, illianus","Modern name":"","Confirmed":"","Toponym":"","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":"","Leases that mention place":"","related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":45,"location_name":"Antiano","Modern name":"","Confirmed":"","Toponym":"","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":31,"Leases that mention place":"","related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":46,"location_name":"figlinulae","Modern name":"","Confirmed":"","Toponym":"","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":31,"Leases that mention place":"","related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":47,"location_name":"corneliano","Modern name":"","Confirmed":"","Toponym":"","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":31,"Leases that mention place":"","related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":48,"location_name":"tarlano","Modern name":"","Confirmed":"","Toponym":"","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":31,"Leases that mention place":"","related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":49,"location_name":"Longitiae","Modern name":"","Confirmed":"","Toponym":"fundus","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":32,"Leases that mention place":"","related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":50,"location_name":"antiquo","Modern name":"???????","Confirmed":"no","Toponym":"","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":34,"Leases that mention place":"","related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":51,"location_name":"antonianus","Modern name":"vici","Confirmed":"","Toponym":"","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":"36,64","Leases that mention place":"","related locations":42,"Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":52,"location_name":"Camertulum","Modern name":"Camerino","Confirmed":"","Toponym":"civitae","coordinates":"43.135218, 13.068435","map link":"","Future Castellum":"","Charters that mention place":"","Leases that mention place":"","related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":53,"location_name":"Tancies/Tancii","Modern name":"Monte Tancia","Confirmed":"Suggested by Costambeys p. 79 See also Toubert pg. 437 lots of info!!!!","Toponym":"Gualdus","coordinates":"42.321201, 12.732209","map link":"","Future Castellum":"","Charters that mention place":"50,51","Leases that mention place":28,"related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":54,"location_name":"caerasum","Modern name":"?","Confirmed":"No, woods near Tancies","Toponym":"","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":"","Leases that mention place":"","related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":55,"location_name":"Asera / Aser","Modern name":"","Confirmed":"No, Above or near the Via Saleria","Toponym":"","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":"22,54","Leases that mention place":20,"related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":56,"location_name":"Campus Gartiani","Modern name":"","Confirmed":"","Toponym":"","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":"","Leases that mention place":"","related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":57,"location_name":"Decano","Modern name":"","Confirmed":"No,","Toponym":"Very tentative guess at location!!","coordinates":"42.527523, 12.264758","map link":"","Future Castellum":"","Charters that mention place":33,"Leases that mention place":"","related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":58,"location_name":"Vico Quintiano","Modern name":"","Confirmed":"","Toponym":"","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":"19, 58,37","Leases that mention place":"","related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":59,"location_name":"varianum","Modern name":"","Confirmed":"","Toponym":"","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":"","Leases that mention place":"","related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":60,"location_name":"Spoleto","Modern name":"","Confirmed":"","Toponym":"","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":"","Leases that mention place":"","related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":61,"location_name":"Interocrino","Modern name":"Antrodoco\nInterocrino means between the mountains. I believe this is on the Via Saleria","Confirmed":"yes","Toponym":"massa Interocrino","coordinates":"42.415286, 13.075594","map link":"","Future Castellum":"yes…","Charters that mention place":"","Leases that mention place":34,"related locations":"","Site verified":"http://www.comune.cittareale.ri.gov.it/doc/articoli/persichetti.pdf","Source":"","level of detail":"","notes":"Contains Gualdus named Campus Garzanus"}
+    ,
+    {"id":62,"location_name":"centucellensis","Modern name":"Civitavecchia","Confirmed":"yes","Toponym":"","coordinates":"42.104930, 11.798233","map link":"","Future Castellum":"","Charters that mention place":"","Leases that mention place":"","related locations":"","Site verified":"https://books.google.co.uk/books?id=Mk0LAAAAIAAJ&pg=PA63&lpg=PA63&dq=Centucellensis&source=bl&ots=BKAcFkH-Sd&sig=HNJTKusLnB6EMK3EGnXFjjljKfA&hl=en&sa=X&ved=0ahUKEwim_7fuyK_MAhWmIsAKHadqBmQQ6AEIIzAB#v=onepage&q=Centucellensis&f=false","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":63,"location_name":"Tuscanensis Tuscania","Modern name":"https://www.wikiwand.com/la/Tuscana","Confirmed":"yes","Toponym":"","coordinates":"42.418539, 11.870313","map link":"","Future Castellum":"","Charters that mention place":"","Leases that mention place":"","related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":64,"location_name":"Fortuna","Modern name":"Near Viterbo…","Confirmed":"","Toponym":"","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":"","Leases that mention place":"","related locations":42,"Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":65,"location_name":"Castellione","Modern name":"Near Viterbi","Confirmed":"","Toponym":"","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":"","Leases that mention place":"","related locations":42,"Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":66,"location_name":"Corniano","Modern name":"https://www.wikiwand.com/en/Corchiano","Confirmed":"no","Toponym":"","coordinates":"42.356453, 12.362022","map link":"","Future Castellum":"","Charters that mention place":"","Leases that mention place":"","related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":67,"location_name":"Suliniano","Modern name":"uico","Confirmed":"","Toponym":"","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":"","Leases that mention place":"","related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":68,"location_name":"Vico Flaviano","Modern name":"","Confirmed":"Yes but co-ordinates vague.  See : http://www.univeur.org/cuebc/downloads/Pubblicazioni%20scaricabili/Le%20Rotonde%20del%20Santo%20Sepolcro/21Novella%20Bonfanti.pdf","Toponym":"Vico Flaviano also listed as fundus flaviano","coordinates":"42.426728, 12.119822","map link":"42.540797, 12.035527","Future Castellum":"","Charters that mention place":"","Leases that mention place":"","related locations":42,"Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":69,"location_name":"Civita Castellana","Modern name":"","Confirmed":"","Toponym":"","coordinates":"42.288487, 12.416537","map link":"","Future Castellum":"","Charters that mention place":"","Leases that mention place":"","related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":70,"location_name":"maternae","Modern name":"near Viterbo…","Confirmed":"See Raspi Serra : p. 102","Toponym":"","coordinates":"42.421909, 12.073324","map link":"","Future Castellum":"","Charters that mention place":"","Leases that mention place":"","related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":71,"location_name":"Vico mariano","Modern name":"near Tuscania","Confirmed":"","Toponym":"","coordinates":"42.534954, 11.923706","map link":"","Future Castellum":"","Charters that mention place":"","Leases that mention place":"","related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":72,"location_name":"Vico Squarrano","Modern name":"near Viterbo","Confirmed":"","Toponym":"","coordinates":"42.410025, 12.102729","map link":"","Future Castellum":"","Charters that mention place":"","Leases that mention place":"","related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":73,"location_name":"Vico Fuliano","Modern name":"","Confirmed":"","Toponym":"","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":"","Leases that mention place":"","related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":74,"location_name":"rufano rofano","Modern name":"near tuscania","Confirmed":"","Toponym":"","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":"","Leases that mention place":"","related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":75,"location_name":"Fraganiano","Modern name":"viterbo region apparently.","Confirmed":"","Toponym":"","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":"","Leases that mention place":"","related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":76,"location_name":"vico Sanctu Martinu ad Colomnate","Modern name":"","Confirmed":"","Toponym":"","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":"","Leases that mention place":"","related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":78,"location_name":"Vicu Sonsa","Modern name":"","Confirmed":"","Toponym":"","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":"","Leases that mention place":"","related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":79,"location_name":"Vico Diano","Modern name":"","Confirmed":"","Toponym":"","coordinates":"","map link":"","Future Castellum":"","Charters that mention place":"","Leases that mention place":"","related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":80,"location_name":"Rumiliano","Modern name":"","Confirmed":"Kurtze 310 III/2","Toponym":"","coordinates":"42.520900, 12.010263","map link":"","Future Castellum":"","Charters that mention place":"","Leases that mention place":"","related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":81,"location_name":"Plantjanula","Modern name":"pianzano","Confirmed":"","Toponym":"","coordinates":"42.520078, 11.828796","map link":"","Future Castellum":"","Charters that mention place":"","Leases that mention place":"","related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+    ,
+    {"id":82,"location_name":"bagno regio","Modern name":"","Confirmed":"","Toponym":"","coordinates":"42.627148, 12.090594","map link":"","Future Castellum":"","Charters that mention place":"","Leases that mention place":"","related locations":"","Site verified":"","Source":"","level of detail":"","notes":""}
+
   ]
 }

@@ -1,52 +1,33 @@
-var PI = Math.PI;
-var pow = Math.pow;
-var tan = Math.tan;
-var log = Math.log;
-var atan = Math.atan;
-var exp = Math.exp;
+
 var d3 = require('d3');
 var $ = require('jquery');
-var ViewportMercator = require('viewport-mercator-project');
 
 mapboxgl.accessToken = 'pk.eyJ1Ijoic2t5amFjayIsImEiOiJjaXRjeXp3bW8wMDY3MnNtaXE1NzI0cDdxIn0.-nlFYGOQQi6fbdY1ii1CYQ';
+
+	//Setup mapbox-gl map
 	var map = new mapboxgl.Map({
-			container: 'map',
-			style: 'mapbox://styles/skyjack/citpupza6000d2io0bh6f6to1'
-	});
-	map.scrollZoom.disable();
+		container: 'map', // container id
+		style: 'mapbox://styles/skyjack/citpupza6000d2io0bh6f6to1',
+		center: [12.316972, 42.270889],
+		zoom: 9,
 
-	var container = map.getCanvasContainer();
-	var svg = d3.select(container).append("svg");
-	var dots;
+	})
+	map.scrollZoom.disable()
+	map.addControl(new mapboxgl.NavigationControl());
 
-	function mapboxProjection(lonlat) {
-		var p = map.project(new mapboxgl.LngLat(lonlat[0], lonlat[1]))
-		return [p.x, p.y];
-	}
+	// Setup our svg layer that we can manipulate with d3
+	var container = map.getCanvasContainer()
+	var svg = d3.select(container).append("svg")
 
-	// we can use viewport-mercator-project to get projection and unprojection functions
-	function getVP() {
-		var bbox = document.body.getBoundingClientRect();
-		var center = map.getCenter();
-		var zoom = map.getZoom();
-		var vp = ViewportMercator({
-			longitude: center.lng,
-			latitude: center.lat,
-			zoom: zoom,
-			width: bbox.width,
-			height: bbox.height,
-		});
-		return vp;
-	}
-
-	// // we calculate the scale given mapbox state (derived from viewport-mercator-project's code)
-	// // to define a d3 projection
+	// we calculate the scale given mapbox state (derived from viewport-mercator-project's code)
+	// to define a d3 projection
 	function getD3() {
 		var bbox = document.body.getBoundingClientRect();
 		var center = map.getCenter();
 		var zoom = map.getZoom();
+		console.log(center, zoom);
 		// 512 is hardcoded tile size, might need to be 256 or changed to suit your map config
-		var scale = (256) * 0.5 / PI * pow(2, zoom);
+		var scale = (512) * 0.5 / Math.PI * Math.pow(2, zoom);
 
 		var d3projection = d3.geo.mercator()
 			.center([center.lng, center.lat])
@@ -55,67 +36,74 @@ mapboxgl.accessToken = 'pk.eyJ1Ijoic2t5amFjayIsImEiOiJjaXRjeXp3bW8wMDY3MnNtaXE1N
 
 		return d3projection;
 	}
-	//
-	// // calculate the original viewport-mercator-project projection
-	// var vp = getVP();
-	//
-	// // calculate the original d3 projection
+	// calculate the original d3 projection
 	var d3Projection = getD3();
 
-	var path = d3.geo.path();
+	var path = d3.geo.path()
+
+	var url = "../testOutput2.json";
+	d3.json(url, function(err, data) {
+
+		var points = data;
+		///var points = topojson.feature(data, data.objects.london_stations)
+		console.log(points.features);
+		//console.log(data[0], getLL(data[0]), project(data[0]))
+		var dots = svg.selectAll("circle.dot")
+			.data(points.locations)
+
+		dots.enter().append("circle").classed("dot", true)
+		.attr("r", 1)
+		.style({
+			fill: "#0082a3",
+			"fill-opacity": 0.6,
+			stroke: "#004d60",
+			"stroke-width": 1
+		})
+		.transition().duration(1000)
+		.attr("r", 6);
 
 
 
-	d3.json("../data/json/output.json", function(error, data) {
-		if (error) throw error;
-		console.log(data);
 
-		var	dots = svg.selectAll("circle.dot").data(data.locations);
+		function render() {
+			d3Projection = getD3();
+			path.projection(d3Projection)
 
-				dots
-				.enter()
-				.append("circle")
-				.classed("d3", true)
-				.append("title")
-				.text(function(d) { return d.name; });
-
-		// we want to render the same point
-		// var point = [42.412732, 12.098551];
-		//
-		// var d3Circle = svg.append("circle").classed("d3", true);
-		function render () {
-
-			d3projection = getD3();
-			path.projection(d3Projection);
-			console.log('called');
-
-			dots.attr({
-	      cx: function(d) {
-					console.log(d);
-					if (d.coordinates) {
-						console.log(d.coordinates.split(',')[0], d3Projection(d.coordinates.split(',')[0])[0]);
-						var x = d3Projection(d.coordinates.split(',')[0])[0];
+			dots
+			.attr({
+				cx: function(d) {
+					if (d.coordinates.length > 0) {
+						var x = d3Projection(d.coordinates)[0];
 						return x
 					}
-	      },
-	      cy: function(d) {
-					if (d.coordinates) {
-						var y = d3Projection(d.coordinates.split(',')[1])[1];
-		        return y
+				},
+				cy: function(d) {
+				  if (d.coordinates.length > 0) {
+						var y = d3Projection(d.coordinates)[1];
+						return y
 					}
-	      }
-      });
-		};
+				},
+			});
+			var labels = 	dots.append("svg:text")
+			.attr({
+					"class": "node-label",
+					'dy': 24,
+					"text-anchor": "middle"
+			})
+			.text(function(d) { return d.location_name; });
 
 
-		map.on('viewreset', function(){
-		render();
-		});
+					  console.log(labels);
+		}
 
-		map.on('move', function (){
-		render();
+		// re-render our visualization whenever the view changes
+		map.on("viewreset", function() {
+			render()
+		})
+		map.on("move", function() {
+			render()
 		})
 
-		render();
-
-	});
+		// render our initial visualization
+		render()
+	})

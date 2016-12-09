@@ -15,6 +15,7 @@
 
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <script src='https://api.mapbox.com/mapbox-gl-js/v0.26.0/mapbox-gl.js'></script>
+  <script src="//d3js.org/topojson.v1.min.js"></script>
   <link href='https://api.mapbox.com/mapbox-gl-js/v0.26.0/mapbox-gl.css' rel='stylesheet' />
 
 
@@ -27,7 +28,6 @@
       width: 100%;
       height: 100%;
     }
-
     svg {
       position: absolute;
       width: 100%;
@@ -42,12 +42,12 @@
       fill-opacity: 0.1;
       stroke: #111;
     }
-    circle.d3 {
-      fill-opacity: 0.8;
-      stroke-width: 2;
+    circle.dot {
+      fill-opacity: 0.9;
+      stroke-width: 1;
       stroke: orange;
     }
-
+/*
     .node {
       stroke: #000;
       stroke-width: 1.5px;
@@ -69,13 +69,12 @@
       border: 0px;
       border-radius: 8px;
       pointer-events: none;
-    }
+    }*/
 </style>
 </head>
 
 <body>
   <div id="map"></div>
-  <svg id="overlay2"></svg>
 <!-- [.[] | {person_id: .person_id, relation_id: .relation_id[] }]
 ± more ./data/json/agent-table2.json | jq '[.[] | {person_id: .person_id, relation_id: .relation_id[] }]' > test.json
 ± more ./data/json/agent-table2.json | jq '{ nodes: . , links: [.[] | {source: .person_id, target: .relation_id[] }]}' >  test.json
@@ -84,6 +83,8 @@
 ± more ./data/json/agent-table2.json | jq '{ nodes: [.[] | {id: .person_id | tostring , name: .name }], links: [.[] | {source: .person_id | tostring, target: .relation_id[] | tostring,  }]}' >  test.json
 
 http://bl.ocks.org/mbostock/533daf20348023dfdd76
+
+more ./data/json/output.json | jq -f filters.jq > testOutput2.json 
 -->
 </body>
 

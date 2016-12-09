@@ -9,4 +9,4 @@
 #{ location_nodes: [ .places  ], location_people_link: [ .charters[] | {source: .locations_mentions , target: .granter}]}
 
 
-{ agents [.agents ], charters [.charters], location [.location.coordinates | split(location.coordinates) ] } >  test3.json
+{ charters:  .charters,    agents:   .agents ,   locations:  [ .locations[] | select(.coordinates ) |  {id: .id, location_name: .location_name,  coordinates:  .coordinates | split(", ") | reverse  }]}
